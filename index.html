@@ -1,0 +1,662 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alif Noorachmad Muttaqin — Product Designer &amp; Business Analyst (UI/UX)</title>
+  <meta name="description" content="Personal portfolio of Alif Noorachmad Muttaqin (alif.nm) — Product Designer, Business Analyst, and HCI Researcher with Master's degree in Information Systems (Cumlaude).">
+  <meta name="keywords" content="Alif Noorachmad Muttaqin, UI/UX Designer, Product Designer, Business Analyst, BRD, BPMN, UAT, Human-Computer Interaction, Information Systems, Telkom University">
+  
+  <!-- Open Graph / Meta -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Alif Noorachmad Muttaqin — Product Designer &amp; Business Analyst">
+  <meta property="og:description" content="Designing Meaningful Human–Computer Interactions. Combining academic rigor with design thinking to build evidence-based digital experiences.">
+  <meta property="og:image" content="assets/images/jakal/jakal_clean.png">
+
+  <!-- Fonts: Syne & Inter (Neozen Editorial Minimalist Aesthetic) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Syne:wght@500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css?v=1.7">
+</head>
+<body data-theme="light">
+
+  <!-- Top Announcement / Live Clock Bar (Neozen Signature) -->
+  <aside class="ticker-bar" aria-label="Status bar">
+    <div class="container ticker-container">
+      <div class="ticker-left">
+        <span class="status-indicator"><span class="status-dot"></span> Open to Work · Product Design &amp; Business Analyst Roles</span>
+        <span class="divider-slash">//</span>
+        <span class="location-badge">📍 Jember &amp; Bandung · Open to Opportunities</span>
+      </div>
+      <div class="ticker-right">
+        <span id="live-clock" class="live-clock">Loading local time...</span>
+        <button id="theme-toggle-btn" class="theme-toggle" aria-label="Toggle light and dark mode">
+          <span class="theme-icon">◐</span> <span class="theme-text">Dark Mode</span>
+        </button>
+      </div>
+    </div>
+  </aside>
+
+  <!-- Sticky Navbar -->
+  <header class="site-header" id="header">
+    <div class="container nav-container">
+      <a href="#" class="brand-logo" aria-label="Alif Noorachmad Muttaqin Home">
+        <span class="logo-mark">anm</span>
+        <span class="logo-name">alif.nm</span>
+      </a>
+
+      <nav class="main-nav" id="main-nav" aria-label="Main Navigation">
+        <ul class="nav-links">
+          <li><a href="#projects" class="nav-link"><span class="nav-num">01</span> UX Projects</a></li>
+          <li><a href="#about" class="nav-link"><span class="nav-num">02</span> About</a></li>
+          <li><a href="#services" class="nav-link"><span class="nav-num">03</span> Services &amp; BA</a></li>
+          <li><a href="#experience" class="nav-link"><span class="nav-num">04</span> Experience</a></li>
+          <li><a href="#research" class="nav-link"><span class="nav-num">05</span> Publications</a></li>
+          <li><a href="#contact" class="nav-link"><span class="nav-num">06</span> Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <a href="#contact" class="btn btn-sm btn-outline">Get in Touch</a>
+        <a href="resume.html" target="_blank" rel="noopener noreferrer" id="btn-download-resume-nav" class="btn btn-sm btn-primary">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+          CV / Resume ↗
+        </a>
+        <button class="mobile-menu-toggle" id="mobile-toggle" aria-label="Toggle Mobile Menu">
+          <span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO SECTION (Neozen Editorial Style with Alif's Real Story) -->
+    <section class="hero-section" id="hero">
+      <div class="container">
+        <div class="hero-grid">
+          <div class="hero-content">
+            <div class="section-tag">// PRODUCT DESIGNER &amp; BUSINESS ANALYST</div>
+            <h1 class="hero-title">
+              Designing Meaningful <span class="highlight-text">Human–Computer</span> Interactions.
+            </h1>
+            <p class="hero-description">
+              Hello, I'm <strong>Alif Noorachmad Muttaqin</strong>. Master's graduate in Information Systems (Cumlaude) combining academic research rigor with design thinking to build interfaces that are evidence-based, highly usable, and technically feasible.
+            </p>
+
+            <div class="hero-cta-group">
+              <a href="#projects" class="btn btn-lg btn-primary">
+                Explore UX Projects
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+              </a>
+              <button id="copy-email-btn" class="btn btn-lg btn-secondary" data-email="alifnm.ixa@gmail.com">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+                <span id="copy-email-text">alifnm.ixa@gmail.com</span>
+              </button>
+            </div>
+
+            <div class="hero-social-links">
+              <span class="social-label">Connect:</span>
+              <a href="https://www.linkedin.com/in/alif-noorachmad-muttaqin-3b36081a3/" target="_blank" rel="noopener noreferrer" class="social-chip">LinkedIn ↗</a>
+              <a href="https://github.com/celzroan" target="_blank" rel="noopener noreferrer" class="social-chip">GitHub ↗</a>
+              <a href="https://scholar.google.com/citations?user=yWaw2r4AAAAJ&hl=en" target="_blank" rel="noopener noreferrer" class="social-chip">Google Scholar ↗</a>
+              <a href="https://app.notion.com/p/alifnm/Alif-Noorachmad-M-UX-Portfolio-c6569acfcfbf4190a57967893c80bcd7?source=copy_link" target="_blank" rel="noopener noreferrer" class="social-chip">Notion Portfolio ↗</a>
+            </div>
+          </div>
+
+          <!-- Hero Profile Card (Bento Grid) -->
+          <div class="hero-card">
+            <div class="avatar-wrapper">
+              <img src="assets/images/foto_profil.jpg" alt="Alif Noorachmad Muttaqin - Product Designer" class="hero-avatar" loading="eager">
+              <span class="avatar-badge">Active</span>
+            </div>
+            <div class="card-details">
+              <h3 class="card-name">Alif Noorachmad M.</h3>
+              <p class="card-role">Product Designer &amp; Business Analyst</p>
+              <div class="card-info-list">
+                <div class="info-row">
+                  <span class="info-label">Specialization</span>
+                  <span class="info-value">UI/UX, BRD, BPMN &amp; UAT</span>
+                </div>
+                <div class="info-row">
+                  <span class="info-label">Education</span>
+                  <span class="info-value">M.Kom. (Cumlaude, GPA 3.78)</span>
+                </div>
+                <div class="info-row">
+                  <span class="info-label">Latest Cert</span>
+                  <span class="info-value">Google UX Design (Aug '26)</span>
+                </div>
+                <div class="info-row">
+                  <span class="info-label">Current Role</span>
+                  <span class="info-value">Assistant Lecturer @ Telkom Univ</span>
+                </div>
+                <div class="info-row">
+                  <span class="info-label">Connect</span>
+                  <a href="https://www.linkedin.com/in/alif-noorachmad-muttaqin-3b36081a3/" target="_blank" rel="noopener noreferrer" class="info-value" style="text-decoration: underline;">LinkedIn Profile ↗</a>
+                </div>
+              </div>
+              <a href="resume.html" target="_blank" rel="noopener noreferrer" class="btn btn-full btn-outline">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+                View Full ATS Resume ↗
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Metric Counter Bar (Neozen Style) -->
+        <div class="stats-row">
+          <div class="stat-card">
+            <span class="stat-number">22+</span>
+            <span class="stat-label">Academic Publications (Most Awarded)</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-number">4+</span>
+            <span class="stat-label">Years in Tech &amp; IS Roles</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-number">3.78</span>
+            <span class="stat-label">Master's GPA (Cumlaude)</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-number">100%</span>
+            <span class="stat-label">Evidence-Based Design Rigor</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 01: FEATURED PROJECTS / CASE STUDIES -->
+    <section class="section projects-section" id="projects">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-tag">// 01 UX PROJECTS &amp; CASE STUDIES</div>
+          <h2 class="section-title">Visualizations, Models &amp; Systems</h2>
+          <p class="section-subtitle">
+            A curated portfolio of interface designs, enterprise system architectures, and interactive prototypes built for government, education, and consumer applications.
+          </p>
+
+          <!-- Filter Pills -->
+          <div class="filter-tabs" role="tablist">
+            <button class="filter-tab active" data-filter="all">All Projects (10)</button>
+            <button class="filter-tab" data-filter="concept">Concept &amp; Mobile</button>
+            <button class="filter-tab" data-filter="enterprise">Enterprise &amp; B2B</button>
+            <button class="filter-tab" data-filter="ecommerce">E-Commerce</button>
+            <button class="filter-tab" data-filter="govtech">GovTech &amp; Public</button>
+          </div>
+        </div>
+
+        <!-- Projects Grid Container: Dynamically Rendered from projects-data.js -->
+        <div class="projects-grid" id="projects-container">
+          <!-- Populated dynamically via projects-data.js & app.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 02: ABOUT ME & PHILOSOPHY -->
+    <section class="section about-section" id="about">
+      <div class="container">
+        <div class="about-grid">
+          <div class="about-left">
+            <div class="section-tag">// 02 ABOUT ME</div>
+            <h2 class="section-title">Product Designer &amp; Business Analyst driven by impact.</h2>
+            <div class="about-text-block">
+              <p>
+                I hold a <strong>Master's Degree in Information Systems (Cumlaude, GPA 3.78)</strong> from Telkom University. With 2.5+ years of hands-on experience in Product Design (UI/UX) and Business Analysis across B2B, government, and higher-education systems, I operate at the intersection of business requirements, technical feasibility, and human-centered design.
+              </p>
+              <p>
+                Currently serving as an <strong>Assistant Lecturer at Telkom University</strong>, I actively support research and academic publications in human-computer interaction (HCI) and information systems. During my master's studies, I was recognized with the <strong>Most Publications</strong> award for authoring and co-authoring <strong>22 academic publications</strong> indexed in Scopus (Q1), IEEE, and Sinta.
+              </p>
+            </div>
+
+            <!-- Core Philosophy Pillars -->
+            <div class="pillars-grid">
+              <div class="pillar-card">
+                <span class="pillar-num">01</span>
+                <h4>Academic &amp; Research Rigor</h4>
+                <p>Every design choice is validated through empirical methods (TAM, PLS-SEM, SUS usability benchmarks).</p>
+              </div>
+              <div class="pillar-card">
+                <span class="pillar-num">02</span>
+                <h4>System &amp; Business Alignment</h4>
+                <p>Bridging stakeholder needs into clear BRDs, BPMN workflow models, functional specifications, and UAT criteria.</p>
+              </div>
+              <div class="pillar-card">
+                <span class="pillar-num">03</span>
+                <h4>Technical Feasibility</h4>
+                <p>Ensuring design prototypes align 1:1 with engineering reality, role-based security, and database constraints.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Skills & Tooling Column -->
+          <div class="about-right">
+            <div class="skills-card">
+              <h3 class="skills-heading">Core Skills &amp; Competencies</h3>
+              <div class="skills-tags">
+                <span class="skill-tag">Product Design</span>
+                <span class="skill-tag">UI/UX Design</span>
+                <span class="skill-tag">Interaction Design</span>
+                <span class="skill-tag">User Flows &amp; BPMN</span>
+                <span class="skill-tag">Wireframing</span>
+                <span class="skill-tag">High-Fidelity Prototyping</span>
+                <span class="skill-tag">Requirements Gathering</span>
+                <span class="skill-tag">BRD &amp; Functional Specs</span>
+                <span class="skill-tag">UAT &amp; Defect Logging</span>
+                <span class="skill-tag">HCI Academic Research</span>
+              </div>
+
+              <h3 class="skills-heading mt-4">Tools of Choice</h3>
+              <div class="tools-grid">
+                <div class="tool-item">
+                  <div class="tool-icon">❖</div>
+                  <div class="tool-info">
+                    <strong>Figma</strong>
+                    <span>UI Design, Auto-Layout, Components</span>
+                  </div>
+                </div>
+                <div class="tool-item">
+                  <div class="tool-icon">◈</div>
+                  <div class="tool-info">
+                    <strong>Miro &amp; Balsamiq</strong>
+                    <span>BPMN Workflows, Wireframes, Ideation</span>
+                  </div>
+                </div>
+                <div class="tool-item">
+                  <div class="tool-icon">⬡</div>
+                  <div class="tool-info">
+                    <strong>Notion &amp; MS Office</strong>
+                    <span>BRD, UAT Checklists, System Documentation</span>
+                  </div>
+                </div>
+                <div class="tool-item">
+                  <div class="tool-icon">⚡</div>
+                  <div class="tool-info">
+                    <strong>AI-Assisted Prototyping</strong>
+                    <span>Antigravity &amp; Google Stitch Workflows</span>
+                  </div>
+                </div>
+              </div>
+
+              <h3 class="skills-heading mt-4">Professional Certifications</h3>
+              <div class="tools-grid">
+                <div class="tool-item" style="border-left: 3px solid #4285F4;">
+                  <div class="tool-icon" style="font-weight: 700; color: #4285F4;">G</div>
+                  <div class="tool-info">
+                    <strong>Google UX Design Professional Certificate</strong>
+                    <span>Issued Aug 2026 · Coursera / Google</span>
+                  </div>
+                </div>
+                <div class="tool-item" style="border-left: 3px solid #f59e0b;">
+                  <div class="tool-icon" style="font-weight: 700; color: #f59e0b;">★</div>
+                  <div class="tool-info">
+                    <strong>UI/UX Design Mastery (Gold Award)</strong>
+                    <span>Issued Apr 2022 · Skilvul</span>
+                  </div>
+                </div>
+                <div class="tool-item" style="border-left: 3px solid #ef4444;">
+                  <div class="tool-icon" style="font-weight: 700; color: #ef4444;">◆</div>
+                  <div class="tool-info">
+                    <strong>Artificial Intelligence with Machine Learning</strong>
+                    <span>Issued Apr 2024 · Oracle Academy</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 03: SERVICES & BUSINESS ANALYSIS -->
+    <section class="section services-section" id="services">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-tag">// 03 SERVICES &amp; EXPERTISE</div>
+          <h2 class="section-title">What I Bring to Your Organization</h2>
+          <p class="section-subtitle">
+            A versatile dual skillset: delivering end-to-end user interface design and structured business analysis.
+          </p>
+        </div>
+
+        <div class="services-grid">
+          <div class="service-card">
+            <div class="service-header">
+              <span class="service-num">01</span>
+              <h3>UI/UX &amp; Interaction Design</h3>
+            </div>
+            <p>Designing user-centric mobile and web experiences from initial wireframes to pixel-perfect interactive prototypes.</p>
+            <ul class="service-checklist">
+              <li>Information Architecture &amp; User Journeys</li>
+              <li>Figma Component Libraries &amp; Design Systems</li>
+              <li>Rapid Design-to-Code Prototyping</li>
+            </ul>
+          </div>
+
+          <div class="service-card">
+            <div class="service-header">
+              <span class="service-num">02</span>
+              <h3>Business Analysis &amp; Requirements</h3>
+            </div>
+            <p>Translating complex stakeholder expectations into structured documentation that engineers can build without ambiguity.</p>
+            <ul class="service-checklist">
+              <li>Business Requirement Documents (BRD)</li>
+              <li>BPMN Process Modeling &amp; Role Mapping</li>
+              <li>Functional Specifications &amp; Acceptance Criteria</li>
+            </ul>
+          </div>
+
+          <div class="service-card">
+            <div class="service-header">
+              <span class="service-num">03</span>
+              <h3>UAT &amp; Usability Research</h3>
+            </div>
+            <p>Leading User Acceptance Testing (UAT) sessions, logging defects, and evaluating user satisfaction with empirical frameworks.</p>
+            <ul class="service-checklist">
+              <li>UAT Test Cases &amp; Defect Documentation</li>
+              <li>System Usability Scale (SUS) Testing</li>
+              <li>Technology Acceptance Model (TAM) Evaluation</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 04: WORK EXPERIENCE & EDUCATION TIMELINE -->
+    <section class="section experience-section" id="experience">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-tag">// 04 CAREER &amp; EDUCATION</div>
+          <h2 class="section-title">Professional Experience &amp; Academic Track</h2>
+          <p class="section-subtitle">
+            Part of 4+ years total across technology, systems analysis, UI/UX, and higher education.
+          </p>
+        </div>
+
+        <div class="timeline-container">
+          <!-- Item 1 -->
+          <div class="timeline-item">
+            <div class="timeline-date">Sep 2024 — Present</div>
+            <div class="timeline-content">
+              <div class="timeline-role">Assistant Lecturer <span class="company-badge">Telkom University</span></div>
+              <p class="timeline-desc">
+                Support faculty evaluation and semester reporting; assist governance compliance documentation; contribute to audit/risk register analysis and academic administrative reporting.
+              </p>
+              <div class="timeline-tags">
+                <span>Higher Education</span><span>Research Assistance</span><span>Audit &amp; Risk</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Item 2 -->
+          <div class="timeline-item">
+            <div class="timeline-date">Jul 2021 — Jan 2023</div>
+            <div class="timeline-content">
+              <div class="timeline-role">Product Designer &amp; Business Analyst (Contract) <span class="company-badge">Various Clients</span></div>
+              <p class="timeline-desc">
+                Delivered UI/UX and business analysis for government and higher-education systems. Led stakeholder workshops, authored BRDs with BPMN workflows, designed high-fidelity interfaces, and supported UAT testing.<br>
+                <em>Selected engagements:</em> HRIS/Payroll (ITS Mandala Jember, Feb–Sep 2022); SIM RSGM UNEJ (Nov–Dec 2022); KUP3 &amp; RSPA (Korlantas Polri, Nov–Dec 2022); DPRKPCK procurement documentation (Jan 2023).
+              </p>
+              <div class="timeline-tags">
+                <span>BRD</span><span>BPMN</span><span>HRIS &amp; Payroll</span><span>Korlantas Polri</span><span>UAT</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Item 3 -->
+          <div class="timeline-item">
+            <div class="timeline-date">Feb 2021 — Jun 2023</div>
+            <div class="timeline-content">
+              <div class="timeline-role">UX Designer <span class="company-badge">Kode Koding</span></div>
+              <p class="timeline-desc">
+                Created wireframes and user flows; collaborated with designers and engineers during implementation. Produced user/admin documentation and supported system testing and training.<br>
+                <em>Selected projects:</em> Covidcare UNEJ; RSRD Korlantas Polri; KPRI UNEJ web design.
+              </p>
+              <div class="timeline-tags">
+                <span>UX Design</span><span>Wireframing</span><span>Technical Writer</span><span>Figma</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Item 4 -->
+          <div class="timeline-item">
+            <div class="timeline-date">May 2022</div>
+            <div class="timeline-content">
+              <div class="timeline-role">IT Support (Data Migration) <span class="company-badge">Arjuna Kemendikbud</span></div>
+              <p class="timeline-desc">
+                Supported secure data migration between educational systems, ensuring data accuracy and consistency.
+              </p>
+            </div>
+          </div>
+
+          <!-- Item 5 -->
+          <div class="timeline-item">
+            <div class="timeline-date">Sep 2023 — Aug 2025</div>
+            <div class="timeline-content">
+              <div class="timeline-role">Master’s Degree, Information Systems (Cumlaude, GPA 3.78) <span class="company-badge">Telkom University</span></div>
+              <p class="timeline-desc">
+                Awarded <strong>Most Publications</strong> recognition during Master's studies for producing 22 publications in HCI, Information Systems, and Cognitive Usability.
+              </p>
+            </div>
+          </div>
+
+          <!-- Item 6 -->
+          <div class="timeline-item">
+            <div class="timeline-date">Aug 2015 — Jan 2020</div>
+            <div class="timeline-content">
+              <div class="timeline-role">Bachelor’s Degree, Information Systems <span class="company-badge">Telkom University</span></div>
+              <p class="timeline-desc">
+                Foundational studies in Information Architecture, Database Administration, and Business Process Modeling.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 05: ACADEMIC PUBLICATIONS -->
+    <section class="section research-section" id="research">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-tag">// 05 RESEARCH &amp; PUBLICATIONS</div>
+          <h2 class="section-title">Academic Publications Highlight</h2>
+          <p class="section-subtitle">
+            Demonstrating scientific rigor, statistical validation, and HCI research excellence (22 Publications Total).
+          </p>
+        </div>
+
+        <div class="testimonials-grid">
+          <!-- Paper 1 -->
+          <a href="https://www.mdpi.com/2073-431X/15/6/334" target="_blank" rel="noopener noreferrer" class="testimonial-card" style="text-decoration: none;">
+            <div>
+              <div style="display: flex; gap: 8px; margin-bottom: 12px;">
+                <span class="company-badge" style="background: #10b981; color: white;">Q1 Journal</span>
+                <span class="company-badge">Scopus</span>
+                <span class="company-badge">2026</span>
+              </div>
+              <h3 style="font-family: var(--font-heading); font-size: 1.15rem; margin-bottom: 8px; color: var(--text-primary);">
+                TAM 4 for Enterprise System Adoption: A PCA-Based Multi-Theory Framework and Scenario-Based PLS-SEM Validation
+              </h3>
+              <p class="quote-text" style="font-style: normal; font-size: 0.85rem;">
+                M. Lubis, P. Chairany, <strong>A. N. Muttaqin</strong> &amp; A. R. Lubis · <em>Computers MDPI</em>, 15(6), 334.
+              </p>
+            </div>
+            <span style="font-size: 0.85rem; font-weight: 600; color: var(--text-primary);">Read Article ↗</span>
+          </a>
+
+          <!-- Paper 2 -->
+          <a href="https://ieeexplore.ieee.org/abstract/document/11309662/" target="_blank" rel="noopener noreferrer" class="testimonial-card" style="text-decoration: none;">
+            <div>
+              <div style="display: flex; gap: 8px; margin-bottom: 12px;">
+                <span class="company-badge" style="background: #2563eb; color: white;">IEEE Scopus</span>
+                <span class="company-badge">Conference</span>
+                <span class="company-badge">2025</span>
+              </div>
+              <h3 style="font-family: var(--font-heading); font-size: 1.15rem; margin-bottom: 8px; color: var(--text-primary);">
+                Exam Question Classification Using Decision Tree Based on Bloom's Cognitive Taxonomy
+              </h3>
+              <p class="quote-text" style="font-style: normal; font-size: 0.85rem;">
+                <strong>A. N. Muttaqin</strong>, M. Lubis, E. Sutoyo, R. Fauzi, A. Maududie &amp; S. Suakanto · <em>ICIC IEEE 2025</em>.
+              </p>
+            </div>
+            <span style="font-size: 0.85rem; font-weight: 600; color: var(--text-primary);">Read on IEEE Xplore ↗</span>
+          </a>
+
+          <!-- Paper 3 -->
+          <a href="https://journal.uinjkt.ac.id/index.php/aism/article/view/46667" target="_blank" rel="noopener noreferrer" class="testimonial-card" style="text-decoration: none;">
+            <div>
+              <div style="display: flex; gap: 8px; margin-bottom: 12px;">
+                <span class="company-badge" style="background: #f59e0b; color: white;">Sinta 2</span>
+                <span class="company-badge">HCI / UX</span>
+                <span class="company-badge">2025</span>
+              </div>
+              <h3 style="font-family: var(--font-heading); font-size: 1.15rem; margin-bottom: 8px; color: var(--text-primary);">
+                Revealing User Perception and Mental Model in My Tel-U Apps: A UX and Integrated Method
+              </h3>
+              <p class="quote-text" style="font-style: normal; font-size: 0.85rem;">
+                <strong>A. N. Muttaqin</strong>, M. Lubis, D. Handayani &amp; I. F. Zamzami · <em>AISM Journal</em>, 8(2), 257–266.
+              </p>
+            </div>
+            <span style="font-size: 0.85rem; font-weight: 600; color: var(--text-primary);">Read Publication ↗</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 06: FAQ FOR RECRUITERS & CLIENTS -->
+    <section class="section faq-section" id="faq">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-tag">// 06 RECRUITER &amp; HRD FAQ</div>
+          <h2 class="section-title">Frequently Asked Questions</h2>
+          <p class="section-subtitle">Key highlights regarding my availability, dual Product Design &amp; BA capabilities.</p>
+        </div>
+
+        <div class="faq-accordion">
+          <div class="faq-item">
+            <button class="faq-trigger" aria-expanded="false">
+              <span>What is your availability for full-time opportunities?</span>
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-content">
+              <p>I am actively open to work and available for full-time roles with readiness for on-site, hybrid, or relocation arrangements. Based in Jember and Bandung with flexible onboarding timeline.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-trigger" aria-expanded="false">
+              <span>How does your Business Analyst background benefit Product Design?</span>
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-content">
+              <p>Having authored BRDs, BPMN diagrams, and structured UAT test cases, I understand database schemas, role-based security (RBAC), and technical edge cases before drawing any UI. This prevents costly rework and accelerates developer sprints.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-trigger" aria-expanded="false">
+              <span>Can I view your full CV and certifications?</span>
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-content">
+              <p>Yes! You can view my complete ATS-compliant resume at <a href="resume.html" target="_blank" rel="noopener noreferrer" style="text-decoration: underline; font-weight: 600;">resume.html</a> or download the <a href="assets/Alif_Noorachmad_Muttaqin_Resume.pdf" target="_blank" rel="noopener noreferrer" style="text-decoration: underline; font-weight: 600;">PDF version</a>. Certified in Google UX Design Professional (Google, Aug 2026), UI/UX Mastery (Skilvul Gold), AI with Machine Learning (Oracle Academy), and Database Administration (Microsoft MTA).</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 07: CONTACT -->
+    <section class="section contact-section" id="contact">
+      <div class="container">
+        <div class="contact-box">
+          <div class="section-tag">// 07 GET IN TOUCH</div>
+          <h2 class="contact-title">Let's build meaningful digital products together.</h2>
+          <p class="contact-description">
+            Feel free to reach out for full-time roles, product design discussions, or business analysis collaborations.
+          </p>
+
+          <div class="contact-action-row">
+            <a href="mailto:alifnm.ixa@gmail.com" class="btn btn-lg btn-primary">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+              alifnm.ixa@gmail.com
+            </a>
+            <a href="https://www.linkedin.com/in/alif-noorachmad-muttaqin-3b36081a3/" target="_blank" rel="noopener noreferrer" class="btn btn-lg btn-secondary">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.46 8.76a1.45 1.45 0 1 0 0-2.9 1.45 1.45 0 0 0 0 2.9m1.4 9.74v-8.37H5.06v8.37h2.8z"/></svg>
+              LinkedIn Profile ↗
+            </a>
+            <a href="assets/Alif_Noorachmad_Muttaqin_Resume.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-lg btn-outline">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+              Download PDF CV ↗
+            </a>
+          </div>
+
+          <div class="contact-links-grid">
+            <a href="https://www.linkedin.com/in/alif-noorachmad-muttaqin-3b36081a3/" target="_blank" rel="noopener noreferrer" class="contact-link-item">
+              <span class="link-name">LinkedIn</span>
+              <span class="link-arrow">↗</span>
+            </a>
+            <a href="https://github.com/celzroan" target="_blank" rel="noopener noreferrer" class="contact-link-item">
+              <span class="link-name">GitHub</span>
+              <span class="link-arrow">↗</span>
+            </a>
+            <a href="https://scholar.google.com/citations?user=yWaw2r4AAAAJ&hl=en" target="_blank" rel="noopener noreferrer" class="contact-link-item">
+              <span class="link-name">Google Scholar</span>
+              <span class="link-arrow">↗</span>
+            </a>
+            <a href="https://app.notion.com/p/alifnm/Alif-Noorachmad-M-UX-Portfolio-c6569acfcfbf4190a57967893c80bcd7?source=copy_link" target="_blank" rel="noopener noreferrer" class="contact-link-item">
+              <span class="link-name">Notion Portfolio</span>
+              <span class="link-arrow">↗</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-container">
+      <div class="footer-left">
+        <span>© 2026 Alif Noorachmad Muttaqin (alif.nm) · Inspired by Neozen Architecture</span>
+      </div>
+      <div class="footer-right">
+        <a href="#hero" class="back-to-top">Back to top ↑</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- INTERACTIVE CASE STUDY MODAL / DRAWER -->
+  <div class="case-study-modal" id="case-study-modal" role="dialog" aria-modal="true" aria-hidden="true">
+    <div class="modal-backdrop" id="modal-backdrop"></div>
+    <div class="modal-wrapper">
+      <header class="modal-header">
+        <div class="modal-title-wrap">
+          <span class="modal-tag" id="modal-project-tag">Project Overview</span>
+          <h2 class="modal-project-title" id="modal-project-title">Project Title</h2>
+        </div>
+        <button class="modal-close-btn" id="modal-close-btn" aria-label="Close modal">✕</button>
+      </header>
+
+      <!-- Case study navigation tabs -->
+      <nav class="modal-nav-tabs" role="tablist">
+        <button class="modal-tab active" data-tab="overview">Overview</button>
+        <button class="modal-tab" data-tab="problem">Problem Context</button>
+        <button class="modal-tab" data-tab="solution">Design &amp; Prototype</button>
+        <button class="modal-tab" data-tab="impact">Outcomes &amp; Takeaways</button>
+      </nav>
+
+      <div class="modal-body" id="modal-body-content">
+        <!-- Injected dynamically via app.js -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Notification for Copy Email -->
+  <div class="toast-notification" id="toast" role="status" aria-live="polite">
+    Email copied to clipboard!
+  </div>
+
+  <script src="projects-data.js?v=1.7"></script>
+  <script src="app.js?v=1.7"></script>
+</body>
+</html>

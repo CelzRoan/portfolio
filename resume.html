@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resume — Alif Noorachmad Muttaqin (Product Designer &amp; Business Analyst)</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Inter', -apple-system, sans-serif;
+      line-height: 1.6;
+      color: #111;
+      max-width: 840px;
+      margin: 40px auto;
+      padding: 0 24px;
+      background: #fff;
+    }
+    .header {
+      border-bottom: 2px solid #111;
+      padding-bottom: 20px;
+      margin-bottom: 24px;
+      display: grid;
+      grid-template-columns: 1fr auto;
+      align-items: flex-end;
+      gap: 16px;
+    }
+    .header-left {
+      min-width: 0;
+    }
+    h1 { margin: 0 0 6px 0; font-size: 26px; text-transform: uppercase; letter-spacing: 0.02em; }
+    .role { font-size: 15px; color: #333; font-weight: 700; letter-spacing: 0.05em; }
+    .contact { font-size: 13px; color: #444; text-align: right; line-height: 1.6; white-space: nowrap; }
+    .section-title {
+      font-size: 14px;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      border-bottom: 1px solid #ddd;
+      padding-bottom: 4px;
+      margin: 24px 0 12px 0;
+      color: #111;
+      font-weight: 700;
+    }
+    .item { margin-bottom: 18px; }
+    .item-header { display: flex; justify-content: space-between; font-weight: 700; font-size: 14px; }
+    .item-sub { color: #555; font-size: 13px; font-weight: 600; margin-bottom: 6px; }
+    ul { margin: 6px 0 0 18px; font-size: 13.5px; color: #222; }
+    li { margin-bottom: 4px; }
+    .skills-grid { display: flex; flex-direction: column; gap: 8px; font-size: 13.5px; }
+    .skill-group strong { display: inline-block; width: 140px; color: #111; }
+    .actions-bar {
+      position: fixed;
+      top: 20px;
+      right: 20px;
+      display: flex;
+      gap: 10px;
+      z-index: 100;
+    }
+    .action-btn {
+      background: #111;
+      color: #fff;
+      padding: 9px 16px;
+      border-radius: 6px;
+      border: none;
+      cursor: pointer;
+      font-weight: 600;
+      font-size: 13px;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .action-btn.secondary {
+      background: #fff;
+      color: #111;
+      border: 1px solid #ccc;
+    }
+    @media screen and (max-width: 680px) {
+      .header {
+        grid-template-columns: 1fr;
+        gap: 12px;
+      }
+      .contact {
+        text-align: left;
+        white-space: normal;
+      }
+    }
+    @page {
+      size: A4;
+      margin: 12mm 15mm;
+    }
+    @media print {
+      .actions-bar { display: none !important; }
+      body {
+        margin: 0 !important;
+        padding: 0 !important;
+        max-width: 100% !important;
+        width: 100% !important;
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+      }
+      .header {
+        display: grid !important;
+        grid-template-columns: 1fr auto !important;
+        align-items: flex-end !important;
+        gap: 16px !important;
+        padding-bottom: 14px !important;
+        margin-bottom: 20px !important;
+        border-bottom: 2px solid #111 !important;
+      }
+      h1 {
+        font-size: 24px !important;
+        margin-bottom: 4px !important;
+      }
+      .role {
+        font-size: 13.5px !important;
+      }
+      .contact {
+        font-size: 12px !important;
+        line-height: 1.5 !important;
+        text-align: right !important;
+        white-space: nowrap !important;
+      }
+      .section-title {
+        margin: 18px 0 10px 0 !important;
+      }
+      .item {
+        margin-bottom: 14px !important;
+        break-inside: avoid;
+        page-break-inside: avoid;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="actions-bar">
+    <a href="assets/Alif_Noorachmad_Muttaqin_Resume.pdf" download class="action-btn">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+      Download PDF
+    </a>
+  </div>
+
+  <header class="header">
+    <div class="header-left">
+      <h1>Alif Noorachmad Muttaqin</h1>
+      <div class="role">Product Designer &amp; Business Analyst (BRD / BPMN / UAT)</div>
+    </div>
+    <div class="contact">
+      alifnm.ixa@gmail.com<br>
+      Jember &amp; Bandung, Indonesia · Open to Work<br>
+      <a href="https://www.linkedin.com/in/alif-noorachmad-muttaqin-3b36081a3/" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: underline;">linkedin.com/in/alif-noorachmad-muttaqin-3b36081a3</a>
+    </div>
+  </header>
+
+  <section>
+    <div class="section-title">Professional Summary</div>
+    <p style="font-size: 13.5px; color: #222; line-height: 1.7;">
+      Master's graduate in Information Systems (Cumlaude, GPA 3.78) with 2.5+ years of hands-on experience in Product Design (UI/UX) and Business Analysis for B2B, government, and higher-education systems — part of 4+ years total in tech and information systems roles. Skilled in requirements gathering, Business Requirement Documents (BRD), BPMN/user flows, high-fidelity UI, and user acceptance testing (UAT). Currently serving as Assistant Lecturer at Universitas Telkom, supporting research and academic publications in human-computer interaction and information systems — awarded <strong>Most Publications</strong> recognition during Master's for <strong>22 publications</strong>.
+    </p>
+  </section>
+
+  <section>
+    <div class="section-title">Core Skills</div>
+    <div class="skills-grid">
+      <div class="skill-group">
+        <strong>Product &amp; UX:</strong> Product Design, UI/UX Design, Interaction Design, User Flows, Wireframing, High-Fidelity Prototyping
+      </div>
+      <div class="skill-group">
+        <strong>Business Analysis:</strong> Requirements Gathering, BRD, BPMN, Functional Specifications, Acceptance Criteria, UAT, System Testing
+      </div>
+      <div class="skill-group">
+        <strong>Tools &amp; Workflow:</strong> Figma, Miro, Balsamiq, Notion, Microsoft Office, Google Stitch, Antigravity (AI-Assisted Prototyping)
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="section-title">Professional Experience</div>
+    
+    <div class="item">
+      <div class="item-header">
+        <span>Assistant Lecturer</span>
+        <span>Sep 2024 — Present</span>
+      </div>
+      <div class="item-sub">Telkom University · Academic</div>
+      <ul>
+        <li>Support faculty evaluation and semester reporting; assist governance compliance documentation.</li>
+        <li>Contribute to audit/risk register analysis and administrative reporting across Information Systems department.</li>
+      </ul>
+    </div>
+
+    <div class="item">
+      <div class="item-header">
+        <span>Product Designer &amp; Business Analyst (Contract)</span>
+        <span>Jul 2021 — Jan 2023</span>
+      </div>
+      <div class="item-sub">Various Clients · Government &amp; Higher-Education Systems</div>
+      <ul>
+        <li>Delivered UI/UX and business analysis for government and higher-education systems (Korlantas Polri, Universitas Jember, ITS Mandala).</li>
+        <li>Led stakeholder workshops to gather requirements and map end-to-end business processes.</li>
+        <li>Authored BRDs with workflows, functional specifications, and acceptance criteria.</li>
+        <li>Designed user flows, wireframes, and high-fidelity UI; supported UAT/system testing and defect documentation.</li>
+        <li><em>Selected engagements:</em> HRIS/Payroll (ITS Mandala Jember, Feb-Sep 2022); SIM RSGM UNEJ (Nov-Dec 2022); KUP3 &amp; RSPA (Korlantas Polri, Nov-Dec 2022); DPRKPCK procurement documentation (Jan 2023).</li>
+      </ul>
+    </div>
+
+    <div class="item">
+      <div class="item-header">
+        <span>UX Designer</span>
+        <span>Feb 2021 — Jun 2023</span>
+      </div>
+      <div class="item-sub">Kode Koding · Agency / Studio</div>
+      <ul>
+        <li>Created wireframes and user flows; collaborated with designers and engineers during implementation.</li>
+        <li>Produced user/admin documentation and supported system testing and training.</li>
+        <li><em>Selected projects:</em> Covidcare UNEJ; RSRD Korlantas; KPRI UNEJ web design.</li>
+      </ul>
+    </div>
+
+    <div class="item">
+      <div class="item-header">
+        <span>IT Support (Data Migration)</span>
+        <span>May 2022</span>
+      </div>
+      <div class="item-sub">Arjuna Kemendikbud · Contract</div>
+      <ul>
+        <li>Supported secure data migration between educational systems, ensuring data accuracy and consistency.</li>
+      </ul>
+    </div>
+
+    <div class="item">
+      <div class="item-header">
+        <span>Intern (Business Process Modeler)</span>
+        <span>Jul 2018 — Aug 2018</span>
+      </div>
+      <div class="item-sub">STIE Mandala Jember · Internship</div>
+      <ul>
+        <li>Created BPMN documentation for existing institutional activities and administrative workflows.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section>
+    <div class="section-title">Education</div>
+    <div class="item">
+      <div class="item-header">
+        <span>Master’s Degree, Information Systems (Cumlaude) — GPA: 3.78 / 4.00</span>
+        <span>Sep 2023 — Aug 2025</span>
+      </div>
+      <div class="item-sub">Telkom University · Awarded Most Publications Recognition (22 Publications)</div>
+    </div>
+    <div class="item">
+      <div class="item-header">
+        <span>Bachelor’s Degree, Information Systems</span>
+        <span>Aug 2015 — Jan 2020</span>
+      </div>
+      <div class="item-sub">Telkom University</div>
+    </div>
+  </section>
+
+  <section>
+    <div class="section-title">Certifications</div>
+    <ul style="margin-left: 18px; font-size: 13.5px;">
+      <li><strong>Google</strong> — Google UX Design Professional Certificate (Issued Aug 2026)</li>
+      <li><strong>Skilvul</strong> — UI/UX Design Mastery (Gold) (Apr 2022)</li>
+      <li><strong>Oracle Academy</strong> — Artificial Intelligence with Machine Learning (Apr 2024)</li>
+      <li><strong>Microsoft</strong> — MTA: Database Administration Fundamentals (Dec 2018)</li>
+    </ul>
+  </section>
+</body>
+</html>
