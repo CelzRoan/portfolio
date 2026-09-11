@@ -3,3 +3,8 @@ node_modules/
 .DS_Store
 Thumbs.db
 scratch/
+
+# HRD Portfolio PDF (Local only - do not push to github)
+Portfolio_*.pdf
+portfolio-hrd.html
+generate_portfolio_pdf.js
